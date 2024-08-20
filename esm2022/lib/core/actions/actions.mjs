@@ -1,0 +1,11 @@
+/**
+ * This class is used as a default action when
+ * the user doesn't pass any custom action as an argument
+ */
+export class EmitterAction {
+    constructor(payload, type = null) {
+        this.payload = payload;
+        this.type = type;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWN0aW9ucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uL2xpYnMvZW1pdHRlci9zcmMvbGliL2NvcmUvYWN0aW9ucy9hY3Rpb25zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7R0FHRztBQUNILE1BQU0sT0FBTyxhQUFhO0lBQ3hCLFlBQXFCLE9BQVUsRUFBVyxPQUFzQixJQUFJO1FBQS9DLFlBQU8sR0FBUCxPQUFPLENBQUc7UUFBVyxTQUFJLEdBQUosSUFBSSxDQUFzQjtJQUFHLENBQUM7Q0FDekUiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIFRoaXMgY2xhc3MgaXMgdXNlZCBhcyBhIGRlZmF1bHQgYWN0aW9uIHdoZW5cbiAqIHRoZSB1c2VyIGRvZXNuJ3QgcGFzcyBhbnkgY3VzdG9tIGFjdGlvbiBhcyBhbiBhcmd1bWVudFxuICovXG5leHBvcnQgY2xhc3MgRW1pdHRlckFjdGlvbjxUID0gdm9pZD4ge1xuICBjb25zdHJ1Y3RvcihyZWFkb25seSBwYXlsb2FkOiBULCByZWFkb25seSB0eXBlOiBzdHJpbmcgfCBudWxsID0gbnVsbCkge31cbn1cbiJdfQ==
